@@ -39,13 +39,11 @@
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="84dp"
+        android:orientation="horizontal"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
+
             <RadioButton
                 android:id="@+id/radioButton"
                 android:layout_width="wrap_content"
@@ -57,7 +55,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="No" />
-        </LinearLayout>
+
     </RadioGroup>
 
     <TextView
@@ -91,10 +89,11 @@
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="180dp"
+        android:orientation="horizontal"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <LinearLayout
+
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="horizontal">
@@ -109,7 +108,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="No" />
-        </LinearLayout>
+
     </RadioGroup>
     <TextView
         android:id="@+id/textView5"
@@ -143,10 +142,10 @@
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="276dp"
+        android:orientation="horizontal"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="horizontal">
@@ -161,7 +160,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="No" />
-        </LinearLayout>
+
     </RadioGroup>
 
     <TextView
@@ -178,14 +177,13 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/editTextReflection"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="336dp"
-        android:textStyle="bold"
         android:textSize="8pt"
         android:text=""
         app:layout_constraintStart_toStartOf="parent"

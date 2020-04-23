@@ -5,17 +5,93 @@
     android:orientation="vertical">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal"></LinearLayout>
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="8pt"
+            android:textStyle="bold"
+            android:text="Read up on materials before class:   " />
+
+        <TextView
+            android:id="@+id/textViewMaterials"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="8pt"
+            android:text="" />
+    </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal"></LinearLayout>
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="8pt"
+            android:textStyle="bold"
+            android:text="Arrive on Time:   " />
+
+        <TextView
+            android:id="@+id/textViewOnTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="8pt"
+            android:text="" />
+    </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal"></LinearLayout>
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="8pt"
+            android:textStyle="bold"
+            android:text="Attempt the problem myself:   " />
+
+        <TextView
+            android:id="@+id/textViewPS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="8pt"
+            android:text="" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="8pt"
+            android:textStyle="bold"
+            android:text="Reflection:   " />
+
+        <TextView
+            android:id="@+id/textViewReflection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="8pt"
+            android:text="" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonShow"
+        android:layout_margin="30dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Display last entered data" />
 </LinearLayout>
